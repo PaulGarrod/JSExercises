@@ -1,4 +1,4 @@
-import './Main.css';
+import '../styles/Main.css';
 
 // create components for main-sections if I had more time, for better reusability.
 function Main() {
