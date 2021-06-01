@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,QAAQ,CAAC;EACL,UAAU,ECDD,OAAiB;EDE1B,OAAO,EAAE,MAAM;CAClB",
+    "sources": [
+        "Sidebar.scss",
+        "_variables.scss"
+    ],
+    "names": [],
+    "file": "Sidebar.css"
+}

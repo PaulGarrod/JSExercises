@@ -1,0 +1,20 @@
+@import './variables';
+
+header {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    align-items: center;
+    background-color: $header-bg;
+    padding: 0 30px;
+    h1 {
+        flex-grow: 1;
+    }
+    button, input {
+        border: none;
+        height: 25px;
+    }
+    input {
+        padding: 0;
+    }
+}

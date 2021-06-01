@@ -1,0 +1,8 @@
+.Content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 70% 30%;
+      grid-template-columns: 70% 30%;
+  height: 400px;
+}
+/*# sourceMappingURL=Content.css.map */

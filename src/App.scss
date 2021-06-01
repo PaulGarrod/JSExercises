@@ -1,0 +1,10 @@
+@import './variables';
+
+.App {
+  margin: 0 10%;
+  font-family: $text-font;
+}
+
+h1, h2, h3 {
+  font-family: $header-font;
+}
