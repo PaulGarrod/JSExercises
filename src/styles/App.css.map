@@ -3,7 +3,7 @@
     "mappings": "AAEA,AAAA,IAAI,CAAC;EACH,MAAM,EAAE,KAAK;EACb,WAAW,ECFD,QAAQ;EDGlB,KAAK,ECMc,OAAe;EDLlC,MAAM,EAAC,KAAK;CACb;;AAED,AAAA,EAAE,EAAE,EAAE,EAAE,EAAE,CAAC;EACT,WAAW,ECTC,MAAM;CDUnB;;AAGD,MAAM,MAAM,MAAM,MAAM,SAAS,EAAE,MAAM;EACvC,AAAA,IAAI,CAAC;IACD,MAAM,EAAE,CAAC;GACZ",
     "sources": [
         "App.scss",
-        "_variables.scss"
+        "../variables.scss"
     ],
     "names": [],
     "file": "App.css"

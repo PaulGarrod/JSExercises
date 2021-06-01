@@ -4,8 +4,8 @@
     align-items: center;
 }
 
-@mixin content-column {
+@mixin content-column-reverse {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     justify-content: center;
 }

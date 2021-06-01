@@ -3,8 +3,8 @@
     "mappings": "AAGA,AAAA,MAAM,CAAC;EEFH,OAAO,EAAE,IAAI;EACb,cAAc,EFEO,GAAG;EEDxB,WAAW,EAAE,MAAM;EFEnB,MAAM,EAAE,IAAI;EACZ,OAAO,EAAE,MAAM;EACf,gBAAgB,ECFR,OAAe;CDc1B;;AAhBD,AAKI,MALE,CAKF,EAAE,CAAC;EACC,SAAS,EAAE,CAAC;EACZ,KAAK,ECAO,IAAI;CDCnB;;AARL,AASI,MATE,CASF,MAAM,EATV,MAAM,CASM,KAAK,CAAC;EACV,MAAM,EAAE,IAAI;EACZ,MAAM,EAAE,IAAI;CACf;;AAZL,AAaI,MAbE,CAaF,KAAK,CAAC;EACF,OAAO,EAAE,CAAC;CACb",
     "sources": [
         "Header.scss",
-        "_variables.scss",
-        "_mixins.scss"
+        "../variables.scss",
+        "../mixins.scss"
     ],
     "names": [],
     "file": "Header.css"
