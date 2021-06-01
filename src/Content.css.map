@@ -1,8 +1,9 @@
 {
     "version": 3,
-    "mappings": "AAAA,AAAA,QAAQ,CAAC;EACL,OAAO,EAAE,IAAI;EACb,qBAAqB,EAAE,OAAO;EAC9B,MAAM,EAAE,KACZ;CAAC",
+    "mappings": "AAEA,AAAA,QAAQ,CAAC;EACL,OAAO,EAAE,IAAI;EACb,qBAAqB,EAAE,OAAO;CACjC;;AAED,MAAM,MAAM,MAAM,MAAM,SAAS,EAAE,KAAK;EAChC,AAAA,QAAQ,CAAC;ICDb,OAAO,EAAE,IAAI;IACb,cAAc,EAAE,MAAM;IACtB,eAAe,EAAE,MAAM;GDClB;;;AAGT,MAAM,MAAM,MAAM,MAAM,SAAS,EAAE,MAAM;EACrC,AAAA,QAAQ,CAAC;IACL,qBAAqB,EAAE,OAAO;GACjC",
     "sources": [
-        "Content.scss"
+        "Content.scss",
+        "_mixins.scss"
     ],
     "names": [],
     "file": "Content.css"

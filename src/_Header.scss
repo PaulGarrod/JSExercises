@@ -1,14 +1,14 @@
 @import './variables';
+@import './mixins';
 
 header {
-    display: flex;
-    flex-direction: row;
-    height: 50px;
-    align-items: center;
-    background-color: $header-bg;
+    @include flex-center(row);
+    height: 70px;
     padding: 0 30px;
+    background-color: $header-bg;
     h1 {
         flex-grow: 1;
+        color: $header-font-color;
     }
     button, input {
         border: none;

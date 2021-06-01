@@ -1,9 +1,17 @@
 .App {
   margin: 0 10%;
   font-family: "Roboto";
+  color: #252525;
+  height: 500px;
 }
 
 h1, h2, h3 {
   font-family: "lora";
+}
+
+@media only screen and (max-width: 1000px) {
+  .App {
+    margin: 0;
+  }
 }
 /*# sourceMappingURL=App.css.map */

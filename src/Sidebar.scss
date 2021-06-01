@@ -1,6 +1,21 @@
 @import './variables';
 
 .Sidebar {
+    display: flex;
+    flex-direction: column;
     background: $sidebar-bg;
     padding: 0 30px;
+    li {
+        list-style-type: none;
+    }
+    ul{
+        padding: 0;
+    }
 }
+
+
+@media only screen and (max-width: 800px) {
+    .Sidebar ul {
+        column-count: 2;
+    }
+};

@@ -3,8 +3,16 @@
 .App {
   margin: 0 10%;
   font-family: $text-font;
+  color: $primary-font-color;
+  height:500px;
 }
 
 h1, h2, h3 {
   font-family: $header-font;
 }
+
+@media only screen and (max-width: 1000px) {
+  .App {
+      margin: 0;
+  }
+};
