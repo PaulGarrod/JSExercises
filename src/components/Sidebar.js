@@ -14,7 +14,9 @@ function Sidebar() {
 
   // create an array of lists
   const linkItems = links.map((link) => 
-  <li>{link}</li>
+  <a href="#">
+    <li>{link}</li>
+  </a>
   );
 
   return (
