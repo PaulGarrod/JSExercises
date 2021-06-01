@@ -1,4 +1,6 @@
+*****************
 HTML CSS Question
+*****************
 Html elements are contained within a box. The box is made up of different parts / wrappers. From the inside out, the box is made up of the elements content (center) which has a padding around it, which then has a border and finally a margin is the outer most part. 
 
 As an example, consider yourself the contents, your clothes the padding, your rain jacket the border and your social distance the margin. Or think of it as a pass the parcel, with 3 layers around the prize.
@@ -8,8 +10,9 @@ These parts which make up the box can be manipulated using CSS, making them larg
 Using CSS you can also change the properties of the box - some are block elements (these start on a new line, and take up the full width of their container), others are inline elements which remain on the same line and take up only the space the content needs. CSS allows you to change these properties if you need to. 
 
 
+*******************
 JavaScript Exercise
-
+*******************
 challenge 1
 sumOfPrice = (arr) => {
     return arr.map(a => a.price).reduce((a, b) => a + b);
@@ -36,8 +39,10 @@ const itemMatched = (id, arr) => {
 };
 itemMatched("j_456", sales);
 
-
+*************************
 Replica Project README.md
+*************************
+
 Project created with React and SCSS.
 
 Attempted to keep the design and layout as similar to the brief as possible.
