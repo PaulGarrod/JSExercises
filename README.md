@@ -1,4 +1,4 @@
-<!-- HTML CSS Question -->
+HTML CSS Question
 Html elements are contained within a box. The box is made up of different parts / wrappers. From the inside out, the box is made up of the elements content (center) which has a padding around it, which then has a border and finally a margin is the outer most part. 
 
 As an example, consider yourself the contents, your clothes the padding, your rain jacket the border and your social distance the margin. Or think of it as a pass the parcel, with 3 layers around the prize.
@@ -7,44 +7,49 @@ These parts which make up the box can be manipulated using CSS, making them larg
 
 Using CSS you can also change the properties of the box - some are block elements (these start on a new line, and take up the full width of their container), others are inline elements which remain on the same line and take up only the space the content needs. CSS allows you to change these properties if you need to. 
 
-<!-- JavaScript Exercise -->
-<!-- challenge 1 -->
+
+JavaScript Exercise
+
+challenge 1
 sumOfPrice = (arr) => {
     return arr.map(a => a.price).reduce((a, b) => a + b);
 };
 sumOfPrice(sales);
 
-<!-- challenge 2 -->
+challenge 2
 dateSold = (date) => {
     const itemsSold = sales.filter(a => a.dateSold.includes(date))
     return itemsSold.map(a => a.itemSold);
 }
 dateSold(2017);
 
-<!-- challenge 3 -->
+challenge 3
 sortAlphabetically = (arr) => {
     return arr.map(i => i.itemSold).sort();
 }
 sortAlphabetically(sales);
 
-<!-- challenge 4 -->
+challenge 4
 const itemMatched = (id, arr) => {
     const index = arr.findIndex(i => i.id === id);
     return arr[index];
 };
 itemMatched("j_456", sales);
 
-<!-- Project README.md -->
-Created with React and SCSS.
+
+Replica Project README.md
+Project created with React and SCSS.
 
 Attempted to keep the design and layout as similar to the brief as possible.
 
-Following the brief closely, I attempted to use SCSS for the project - this is my first experience with SCSS. Previously I have created similar projects with just CSS, utilizing CSS Grid and CSS Flexbox.
+Following the brief closely, I attempted to use SCSS for the project - this is my first experience with SCSS. 
+Previously I have created similar projects with just CSS, utilizing CSS Grid and CSS Flexbox.
 
 Fonts included from GoogleFonts.
 Icon included from Font Awesome.
 
-Components include a;
+Components include;
+
 Header Component- incorporating a title and search bar with icon button. 
 Made responsive using flexbox and flex-grow on the title.
 
