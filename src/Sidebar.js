@@ -12,6 +12,7 @@ function Sidebar() {
     "link 8",
   ];
 
+  // create an array of lists
   const linkItems = links.map((link) => 
   <li>{link}</li>
   );
@@ -19,11 +20,11 @@ function Sidebar() {
   return (
     <aside className="Sidebar">
         <h1>Sidebar Header</h1>
-        <div className="Sidebar-list">
+        <nav className="Sidebar-list">
           <ul>
           {linkItems}
           </ul>
-        </div>
+        </nav>
     </aside>
   );
 }

@@ -1,6 +1,6 @@
 import './Main.css';
 
-// seperate sections in to components
+// create components for main-sections if I had more time, for better reusability.
 function Main() {
   return (
     <main className="Main">

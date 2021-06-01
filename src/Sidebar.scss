@@ -13,7 +13,7 @@
     }
 }
 
-
+// mobile view makes 2 cols for the list.
 @media only screen and (max-width: 800px) {
     .Sidebar ul {
         column-count: 2;

@@ -5,14 +5,16 @@
     grid-template-columns: 70% 30%;
 }
 
-@media only screen and (max-width: 800px) {
-        .Content {
-            @include content-column();
-        }
-    };
-
+// adjust col size to have better aestetic on changing screen sizes
 @media only screen and (min-width: 1400px) {
     .Content {
         grid-template-columns: 80% 20%;
     }
 };
+
+// change grid to flex column for mobile view
+@media only screen and (max-width: 800px) {
+        .Content {
+            @include content-column();
+        }
+    };

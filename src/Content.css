@@ -5,6 +5,13 @@
       grid-template-columns: 70% 30%;
 }
 
+@media only screen and (min-width: 1400px) {
+  .Content {
+    -ms-grid-columns: 80% 20%;
+        grid-template-columns: 80% 20%;
+  }
+}
+
 @media only screen and (max-width: 800px) {
   .Content {
     display: -webkit-box;
@@ -17,13 +24,6 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-  }
-}
-
-@media only screen and (min-width: 1400px) {
-  .Content {
-    -ms-grid-columns: 80% 20%;
-        grid-template-columns: 80% 20%;
   }
 }
 /*# sourceMappingURL=Content.css.map */
